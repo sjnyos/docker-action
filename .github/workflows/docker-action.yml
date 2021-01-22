@@ -10,5 +10,5 @@ jobs:
         who-to-greet: 'you are to greet'
     - name: get the output time
       run: echo "The time was %{{steps.hello.outputs.time}}"
-        :
+        
        
